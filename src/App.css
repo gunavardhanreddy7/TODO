@@ -27,6 +27,21 @@
 .App-link {
   color: #61dafb;
 }
+.TaskDetails,.li{
+  display: flex;
+  flex-direction: row;
+
+}
+.li>p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 50px;
+}
+.Title,.Description,.Status,.DueDate{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 
 @keyframes App-logo-spin {
   from {
